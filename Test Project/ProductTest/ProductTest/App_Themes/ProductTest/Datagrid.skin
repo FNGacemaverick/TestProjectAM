@@ -1,0 +1,45 @@
+﻿<asp:DataGrid 
+    runat="server"
+    CellPadding="3" 
+    AllowCustomPaging="False"
+    GridLines="Both"
+    AllowPaging="True" 
+    AllowSorting="True" 
+    AutoGenerateColumns="False" 
+    Font-Names="Verdana, Arial, Helvetica, sans-serif"
+    Font-Size="12px"
+    
+    HeaderStyle-Font-Bold="true" 
+    HeaderStyle-ForeColor="DarkSlateBlue" 
+    HeaderStyle-Height="18px" 
+    HeaderStyle-BackColor="#9EBFF6" 
+    HeaderStyle-HorizontalAlign="Center"
+    HeaderStyle-VerticalAlign="Middle" 
+
+    PageSize="100" 
+    PagerStyle-Visible="False"
+    PagerStyle-NextPageText="Next >" 
+    PagerStyle-PrevPageText="< Prev" 
+    PagerStyle-VerticalAlign="Middle" 
+    PagerStyle-HorizontalAlign="Right" 
+    PagerStyle-Position="Bottom" 
+    PagerStyle-BackColor="#9EBFF6" 
+    PagerStyle-ForeColor="DarkSlateBlue" 
+    PagerStyle-CssClass="PagerStyle"
+    PagerStyle-Mode="NumericPages"
+
+    ItemStyle-ForeColor="Black" 
+    ItemStyle-BackColor="#F8F8F8" 
+
+
+    AlternatingItemStyle-ForeColor="Black" 
+    AlternatingItemStyle-BackColor="#EDEDED" 
+
+    SelectedItemStyle-Font-Bold="true" 
+    SelectedItemStyle-ForeColor="White" 
+    SelectedItemStyle-BackColor="#99FFFF" 
+ 
+    FooterStyle-Font-Bold="true" 
+    FooterStyle-ForeColor="Black" 
+    FooterStyle-BackColor="Silver"
+/>
